@@ -9,4 +9,4 @@ metadata:
 spec:
   containers:
     - name: spring-boot-container
-      image: far2005/spring-demo-app:1.0.0
+      image: far2005/spring-demo-app:2.0.0
