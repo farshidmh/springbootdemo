@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: springboot-app-pod
+  labels:
+    tier: frontend
+
+spec:
+  containers:
+    - name: spring-boot-container
+      image: far2005/spring-demo-app:1.0.0
